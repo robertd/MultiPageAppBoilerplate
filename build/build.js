@@ -16,16 +16,16 @@
     ],
     paths: {
         // libraries path
-        "json": "vendor/json2",
-        "jquery": "vendor/jquery",
-        "util": "vendor/underscore",
-        "bootstrap": "vendor/bootstrap",
-        "backbone": "vendor/backbone",
-        "hogan": "vendor/hogan",
+        "json": "vendor/json2/json2",
+        "jquery": "vendor/jquery/jquery.min",
+        "util": "vendor/lodash/dist/lodash.min",
+        "bootstrap": "vendor/bootstrap/dist/js/bootstrap.min",
+        "backbone": "vendor/backbone/backbone-min",
+        "hogan": "vendor/hogan/web/builds/2.0.0/hogan-2.0.0.amd",
 
         // require plugins
-        "css": "vendor/require.css",
-        "templ": "vendor/require.hogan",
-        "text": "vendor/require.text"
+        "css": "vendor/require-css/css.min",
+        "templ": "vendor/requirejs-hogan-plugin/hgn",
+        "text": "vendor/requirejs-text/text"
     }
 })
