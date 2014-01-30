@@ -81,3 +81,6 @@ Thumbs.db
 
 # Folder config file
 Desktop.ini
+
+# Use bower to pull in deps
+src/vendor
