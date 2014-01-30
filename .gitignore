@@ -84,3 +84,4 @@ Desktop.ini
 
 # Use bower to pull in deps
 src/vendor
+dist/vendor
