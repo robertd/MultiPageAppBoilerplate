@@ -24,7 +24,7 @@
         "hogan": "vendor/hogan/web/builds/2.0.0/hogan-2.0.0.amd",
 
         // require plugins
-        "css": "vendor/require-css/css.min",
+        "css": "lib/require.css",
         "templ": "vendor/requirejs-hogan-plugin/hgn",
         "text": "vendor/requirejs-text/text"
     }
