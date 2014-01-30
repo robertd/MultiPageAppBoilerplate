@@ -23,7 +23,7 @@
             "jquery": { exports: "jQuery" },
             "util": { exports: "_" },
             "json": { exports: "JSON" },
-            "bootstrap": { deps: ["jquery", "css!assets/css/bootstrap"], exports: "$.fn.transition" },
+            "bootstrap": { deps: ["jquery", "css!assets/css/bootstrap.min"], exports: "$.fn.transition" },
             "backbone": { deps: ["jquery", "json", "util"], exports: "Backbone" }
         }
     });
@@ -38,7 +38,7 @@
         "util",
         "backbone",
         "hogan",
-        "css!assets/css/bootstrap",
+        "css!assets/css/bootstrap.min",
         "bootstrap",
         "lib/util"  // app lib modules
         ],
